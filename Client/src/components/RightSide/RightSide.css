@@ -1,0 +1,30 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.navIcons{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.button-rside{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    background-color:rgb(34, 185, 105);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.button-rside:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.chat-page{
+    cursor: pointer;
+}
+.home-page{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.64);
+    border-radius: 3.5%;
+}
+.Post>img{
+    width: 100%;
+    max-height: 25rem;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+.PostReact{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    gap:0.5rem;
+    font-weight: bold   ;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+.comments>input{
+    border-radius: 10px;
+    max-width: 90%;
+    padding: 20px;
+    height: 25px;
+    background-color: var(--inputColor)
+    
+}

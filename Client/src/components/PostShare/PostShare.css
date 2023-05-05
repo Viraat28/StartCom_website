@@ -1,0 +1,74 @@
+.PostShare{
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.PostShare>img{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
+.PostShare>div{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1rem;
+}
+.PostShare>div>input{
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.postOptions{
+    display: flex;
+    justify-content: end;
+   
+}
+.option{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.button-post{
+    font-weight: bold;
+    font-size: 12px;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border:none;
+    border-radius: 0.5rem;
+    background-color:rgb(34, 185, 105);
+  }
+.button-post:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.previewImage{
+    position: relative;
+}
+.previewImage>svg{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+    background-color:rgb(34, 185, 105);
+}
+.previewImage>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5px;
+}

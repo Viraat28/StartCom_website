@@ -1,0 +1,32 @@
+.InfoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
+}
+.infoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infoHead>div:hover{
+    cursor: pointer;
+}
+.button-lo{
+    font-weight: bold;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border:none;
+    border-radius: 0.5rem;
+    background-color:rgb(34, 185, 105);
+  }
+.button-lo:hover{
+    cursor: pointer;
+    background-color: black;
+}

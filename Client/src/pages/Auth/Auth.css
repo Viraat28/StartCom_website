@@ -1,0 +1,104 @@
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+  overflow: auto;
+}
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Webname{
+  background-color: rgba(255, 255, 255, 0.64);
+  width:100%;
+  justify-content:center;
+  align-items:center;
+  border-radius:20px;
+  height:150px;
+}
+.Webname > h1 {
+  margin-top:10px;
+  position:relative;
+  left:52px;
+  font-weight:bold;
+  font-size: 45px;
+  color: rgb(34, 185, 105);
+}
+.Webname > h2 {
+  color: rgb(34, 185, 105);
+  font-size: 35px;
+  margin:10px
+}
+.a-left {
+  gap: 2rem;
+}
+.a-left > img {
+  height: 250px;
+  width: 300px;
+}
+.infoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.infoInput {
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1;
+}
+.infoForm > div {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 90%;
+}
+.button-signup {
+  font-weight: bold;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  justify-content: center;
+  /* color:rgb(14, 189, 104); */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  /* background-color: rgb(234, 234, 234); */
+  background-color: rgb(34, 185, 105);
+}
+.button-signup:hover {
+  cursor: pointer;
+  /* background-color:rgb(63, 128, 63); */
+  background-color: black;
+}
+.authForm {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.64);
+}
+.authForm > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.spanclass {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+  background-color: rgb(34, 185, 105);
+}
+.spanclass:hover {
+  background-color: black;
+}

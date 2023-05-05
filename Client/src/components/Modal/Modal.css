@@ -1,0 +1,33 @@
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px; /* adjust to desired size */
+  height: 300px; /* adjust to desired size */
+  background-color: rgba(255, 255, 255, 0.64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal__content {
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 16px;
+  max-width: 70%;
+  max-height: 70%;
+  overflow: auto;
+}
+
+.Modal__closeButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

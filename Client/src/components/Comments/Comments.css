@@ -1,0 +1,18 @@
+.Comments{
+    display: flex;
+    flex-direction: column;
+}
+.Comments>input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(222, 226, 231);
+}
+.list-comments{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
